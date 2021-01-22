@@ -15,3 +15,5 @@ echo : ’écrire du contenu dans un fichier moyennant le signe
  ls –a :afficher tous les fichier cache
 ls –l : le temps de initialisation de dossier la Dat de création
 man : commande permet d’afficher le manuel d’aide de n’importe quelle autre commande disponible, ex : man ls
+
+
