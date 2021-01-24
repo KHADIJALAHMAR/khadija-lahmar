@@ -1,0 +1,20 @@
+GIT GITHUB
+Prestation
+GIT: un logiciel de gestion de version
+Système Open Source ,Gestion de dossiers.
+GITHUB : est une entreprise de développement logiciel et de service
+Les commandes de git et GitHub
+Git config : on l'utilise pour configurer les préférences
+Git init : pour créer un nouveau dépôt
+Git add : pour être utilisé Pour ajouter des fichiers
+Git clone< SSH> : clone an existing repository existed in Github to your local
+Git commit : permet de valider les modifications
+Git statut: afichier les list des fichiers modifiés ainsi que les fichiers que deviens encore ajouter au valides
+Git push : envois les modifications locales
+git pull : apportée à la branche principale
+Pour fusionner toutes les modifications présentes sur le dépôt distant dans le répertoire de travail local, la commande pull est uti
+Git chekcout : pour changer branch a autre branch
+git branch –d <nom-branche>: Pour supprimer une branche
+Git merge : La commande git merge est utilisée pour fusionner une branche dans la branche active. Git reset : annuler Les modifications indexé fichier
+Git diff : afichier Les modifications non indexé Git branche : pour créer un branche
+Git branch "nom de branche " : pour entrer branch
