@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\tikchbila"
+		},
+		{
+			"path": "..\\gith2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "gith2"
+	}
+}
