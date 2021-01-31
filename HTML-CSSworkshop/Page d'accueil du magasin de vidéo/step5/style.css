@@ -5,9 +5,16 @@ nav{
     padding: 12PX;
     margin:auto ;
 
+
 }
 img{
     width: 150px;
     height:150px;
 
+}
+.par1{
+ color: darkgrey;
+}
+.par3{
+color:rgb(54, 206, 54) ;
 }

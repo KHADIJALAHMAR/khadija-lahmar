@@ -1,0 +1,57 @@
+img{
+    width:150px ;
+    float: left;
+}
+.car{
+    list-style-type: none;
+    display:inline-block ;
+}
+li{
+    display: inline-block;
+    padding-left: 15px; 
+}
+a:hover {
+    text-decoration: underline;
+}
+ Ol.list2 li+li:before {
+    content: "/";
+    padding:8px;  
+ }
+section{
+   font-family: Arial ;
+}
+.eco{
+    display: flex;
+    padding:20PX;
+    
+    
+   
+}
+.pj1{
+width: 200PX;
+height: 300PX;
+
+
+}
+.nan{
+    padding:20PX;
+    border:1PX solid black;
+    margin:auto;
+
+
+}
+.par3{
+    color:rgb(54, 206, 54) ;
+    }
+    .par1{
+        color: darkgrey;
+       }
+
+
+   
+    
+
+
+
+
+ 
