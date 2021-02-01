@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+form{
+    display: grid;
+}
+div{
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+
+h2 {
+    width: 20%;
+    margin: auto;
+    margin-top: 100px;
+}
+#ef{
+    padding: 10px;
+    width: 30%;
+    margin-top: 20px;
+   
+}
+body {
+    background-image: url('image3.jpg');
+}
+.af{
+    padding:10px;
+}
