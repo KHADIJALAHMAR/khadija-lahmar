@@ -1,0 +1,131 @@
+@media screen and (max-width: 600px)
+{  
+  
+    body {
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+     }   
+     h2 {
+         margin-left: 12px;
+     }
+    .logo{
+        margin: auto;
+        width: 40%;
+        display: flex;
+        justify-content: center; 
+        border:2px solid;
+    }
+    p {
+        margin-left: 12px;
+    }
+     .car{
+         padding: 0;
+         margin: auto;
+         width: fit-content;
+         display: flex;
+     }
+     .car2{
+         margin-left: 12px;
+         justify-content: center;
+         padding: 0;
+         width: fit-content;
+     }
+    .lis2{ 
+        list-style-type: none;
+        display:inline-block ;
+    }
+    .lis1{
+        margin-top: 20px;
+        list-style-type: none;
+        padding: 10px;
+        border: 1px solid;
+    } 
+
+    a:hover {
+        text-decoration: underline;
+    }
+     Ol.car2 .lis2+.lis2:before {
+        content: ">";
+        padding:8px;  
+     }
+    section{
+       font-family: Arial ;
+    }
+    .eco{
+        display: grid;
+        padding:20PX;
+    }
+    .pj1{
+    width: 200PX;
+    height: 300PX;
+    
+    
+    }
+    .nan{
+        padding:20PX;
+        border:1PX solid black;
+        margin:auto;
+    
+    
+    }
+    .par3{
+        color:rgb(54, 206, 54) ;
+        }
+        .par1{
+            color: darkgrey;
+           }
+}
+@media screen and (min-width: 601px){
+    
+    img{
+        width:150px ;
+        float: left;
+    }
+    .car{
+        list-style-type: none;
+        display:inline-block ;
+    }
+    li{
+        display: inline-block;
+        padding-left: 15px; 
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+     Ol.car2 li+li:before {
+        content: "/";
+        padding:8px;  
+     }
+    section{
+       font-family: Arial ;
+    }
+    .eco{
+        display: flex;
+        padding:20PX;
+        
+        
+       
+    }
+    .pj1{
+    width: 200PX;
+    height: 300PX;
+    
+    
+    }
+    .nan{
+        padding:20PX;
+        border:1PX solid black;
+        margin:auto;
+    
+    
+    }
+    .par3{
+        color:rgb(54, 206, 54) ;
+        }
+        .par1{
+            color: darkgrey;
+           }
+}
+    
+
+
