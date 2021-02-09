@@ -73,4 +73,6 @@ form{
 .gb{
     margin-top: 10PX;
 }
-
+@media screen and (max-width:375px ){
+    
+}

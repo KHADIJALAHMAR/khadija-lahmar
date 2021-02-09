@@ -1,14 +1,27 @@
-.container{
+.lig{
+    display: none;
+}
+ .container{
     margin: auto; 
     width: 90%; 
     font-family:karla; 
    
 }
-.logo{
-    color: #13366D;
+.hac{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    width: 550px;
+}
+
+.bor1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 550PX;
 }
 body{
-    background-color: #FBF7EE;
+    background-color: 4#FBF7EE;
 }
 .header{
    display: flex;
@@ -118,11 +131,11 @@ flex-direction: column;
     background-color: white;
     border-radius: 4px;
     border: solid  #C2C2C2;
-    width: 22%;
-    padding-left: 2%;
-    margin-top: 2%;
+    width: 250PX;
+    padding:5px;
+    margin-top:10px;
     height: 250PX;
-
+    justify-content: space-between;
 }
 strong{
     color: black;
@@ -137,8 +150,9 @@ strong{
     background-color: #FFF3D9;
     border-radius: 4px;
     border: solid#C2C2C2;
-    width:20%;
-    height: 250px;
+    justify-content: space-between;
+    width:240PX;
+    height: 290px;
     padding:2%;
     
 }
@@ -165,10 +179,12 @@ font-size: 80%;
 .divd4{
     border-radius: 4px;
     border: solid  #C2C2C2;
-    width: 22%;
-    height: 13%;
+    width:500PX;
+    height: 240PX;
     padding-left: 2%;
     padding-top: 2%;
+    justify-content: space-between;
+    width: 250PX;
 }
 .mg{
    width: 80%;
@@ -202,8 +218,96 @@ font-size: 80%;
 .footer{
     margin-top: 50PX;
     color: #13366D;
+}
+@media screen and (max-width:412px ) {
+*{  
+    margin: 0;
+    padding: 0;
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image{
+    display: none;
+}
+.list1{
+    display: none;
+}
+.divd2{
+    width: 250px;
+    margin:auto;
+    margin-top:10px ;
+    padding-top:20px ;
+}
+.divd4{
+    width: 200px;
+    margin: auto;
+    margin-top: 10Px;
+}
+.lig{
+    display: flex;
+    width: 20PX;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+.ha{
+    text-align: center;
+    font-size: 25PX;
+}
+.par{
+    font-size: 15PX;
+}
+.uf{
+   margin-top: 60PX;
+}
+.as{
+    display: flex;
+    justify-content: space-between;
+    height: 30PX;
+    margin-top: 12PX;
+}
+.footer{
+    text-align: center;
+}
+.t{
+    margin-top: 12PX;
+}
+.k{
+    padding-top:12px ;
+}
+.email{
+   width: 230PX;
+}
+.header{
+    margin-top: 4PX;
+}
+.pi{
+  width: 300PX  ;
+}
+.hac{
+   display: grid;
+  
+}
+.bor1{
+    display: grid;
+}
+.section2{
+    flex-direction: column;
+}
+.divd{
+    flex-direction: column;
+}
+
 
 }
+
+
+
 
 
 
