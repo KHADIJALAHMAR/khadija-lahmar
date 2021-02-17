@@ -135,7 +135,6 @@ flex-direction: column;
     padding:5px;
     margin-top:10px;
     height: 250PX;
-    justify-content: space-between;
 }
 strong{
     color: black;
