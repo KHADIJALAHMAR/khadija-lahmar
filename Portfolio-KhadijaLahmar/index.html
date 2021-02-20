@@ -10,6 +10,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="aos.css">
      </head>
     <body>
         <main class="container page" >
@@ -26,13 +27,13 @@
                             <a href="#" class="menu menu5">Contact </a>
                         </div>
                     </header>
-                        <p class="paragraph1 heroparagraph">je m'appelle</p>
-                        <p class="paragraph3 heroparagraph ">KHADIJA LAHMAR</p>
-                        <p class="paragraph4 heroparagraph">je suis une développer</p>
+                        <p class="paragraph1 heroparagraph" data-aos="fade-right">je m'appelle</p>
+                        <p class="paragraph3 heroparagraph" data-aos="fade-right">KHADIJA LAHMAR</p>
+                        <p class="paragraph4 heroparagraph" data-aos="fade-right">je suis une développer</p>
                         <button type="button" class="btncv"><img src="img/us.svg" alt="fj" style="width: 30px;height: 30px;"> Telecharger CV</button>
             </div>
                 <div class="sectionprojet">
-                  <h1 class="grandtitr"> MES TRAVAUX </h1>
+                  <h1 class="grandtitr" data-aos="fade-up"> MES TRAVAUX </h1>
                          <div class="projet dv1">
                             <img src="img/imgwork1.jpg" alt="photo1" class="imgprojet">
                                 <div class="paragraph2">
@@ -59,13 +60,13 @@
                         </div>
                 </div>
                     <div class="sectionpresentation container">
-                        <h1 class="titrepresentation">presentation</h1>
+                        <h1 class="titrepresentation" data-aos="fade-up">presentation</h1>
                         <img src="img/img-PRESENTATION.jpg" alt="photo4" class="imgpresentation">
                         <p class="textpresetation">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores accusamus, sed doloremque aspernatur fugiat vitae magnam. Non atque placeat, quos optio itaque harum quo, maxime asperiores, accusantium voluptatum ad labore.
                         Nemo dignissimos praesentium eum iste animi illum! Pariatur eos neque, quaerat ipsa at dignissimos ipsam excepturi. Placeat delectus dicta, suscipit magni magnam architecto fugiat laborum omnis sed dignissimos pariatur autem?</p>
                     </div> 
                     <div class=" sectioncompetence">
-                        <h1 class="titrcompetence">COMPETENCE</h1>
+                        <h1 class="titrcompetence" data-aos="fade-up">COMPETENCE</h1>
                         <div id="progressbar1">
                             <div></div>
                           </div>
@@ -80,7 +81,7 @@
                           <p class="textcompetence3 textcompetence">BAlSAMIQUE</p>
                     </div>
                     <div class="contact">
-                        <h1 class="titrcontact">contact</h1>
+                        <h1 class="titrcontact" data-aos="fade-up">contact</h1>
                         <div class="socialmedia">
                             <img src="img/github.svg" alt="github" class="imggithub ">
                             <img src="img/instagram.svg" alt="instagram" class="imginstagram ">
@@ -99,14 +100,29 @@
                         </div>
                     </div>
                     <div class="footer">
-                        <p>DIJA</p>
-                        <img src="img/github.svg" alt="github" class="imggithub ">
-                        <img src="img/instagram.svg" alt="instagram" class="imginstagram ">
-                        <img src="img/twitter.svg" alt="twitter" class="imgtwitter ">
-                        <img src="img/facebook.svg" alt="facebook" class="imgfacebook ">
-                        <p>Copyright © 2021 DIJA. All rights reserved.</p>
-
+                        <div class="contactfooter">
+                            <h1>DIJA</h1>
+                            <img src="img/github.svg" alt="github" class="imggithub2" >
+                            <img src="img/instagram.svg" alt="instagram" class="imginstagram2 ">
+                            <img src="img/twitter.svg" alt="twitter" class="imgtwitter2 ">
+                            <img src="img/facebook.svg" alt="facebook" class="imgfacebook2 ">
+                            <p class="pfooter">Copyright © 2021 DIJA. All rights reserved.</p>
+                        </div>
+                        <div class="menufooter">
+                            <p class="textfooter1">Accueil</p>
+                            <p class="textfooter2">Portfolio</p>
+                            <p class="textfooter3">À propos </p>
+                            <p class="textfooter4"> Compétences </p>
+                            <p class="textfooter5">Contact </p>
+                        </div>
                     </div>
-         </main>    
+         </main>
+         <script src="aos.js"></script>
+         <script src="https://code.jquery.com/jquery-3.5.1.js%22%3E"></script>
+         <script>
+            AOS.init({
+                duration: 1000,
+            });
+        </script>
     </body>
 </html>
