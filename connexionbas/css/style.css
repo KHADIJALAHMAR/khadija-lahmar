@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    font-family: 'arial';
+    color:white;
+    font-size: 15px;
+    line-height: 1.5em;
+    background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+.titleBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color:chocolate;
+    border-style: solid;
+    margin-top: 1em;
+    height: 5vh;
+    color: black;
+}
+
+.messages{
+   overflow: auto;
+    border-color:chocolate;
+    border-style: solid;
+    margin-top: 1em;
+    height: 50vh;
+    padding: 2em;
+    background-color: peru;
+    border-radius: 2%;
+   
+  
+} 
+.messages::-webkit-scrollbar{
+   display: none;
+}
+
+.message{
+    margin-top: .5em;
+    list-style: none;
+}
+
+.comment{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1em;
+    height: 10vh;
+
+}
+#username{
+    width: 25%; 
+}
+#message {
+    width: 55%;
+}
+

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "phpmy",
+			"path": ".."
+		},
+		{
+			"name": "css",
+			"path": "..\\..\\phpMysql-main\\css"
+		}
+	],
+	"settings": {}
+}
