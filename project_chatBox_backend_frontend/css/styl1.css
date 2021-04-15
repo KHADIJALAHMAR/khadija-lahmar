@@ -1,0 +1,23 @@
+table,th{
+    border: 1px solid black;
+    width: 20%;
+}
+table {
+    border-collapse: collapse;
+    
+}
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh ;
+    font-family: 'arial';
+    color:white;
+    font-size: 15px;
+    background:url(../download.jpg);
+    -webkit-background-size: cover;
+    background-size:cover;
+}
+th{
+    color:coral;
+}
+ 

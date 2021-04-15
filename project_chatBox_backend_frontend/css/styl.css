@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    color: cornsilk;
+}
+body{
+    background-image: url(../download.jpg);
+    -webkit-background-size: cover;
+    background-size:cover;
+    background-position:center center;
+}
+.formulair{
+    width:800px;
+    margin:5% auto;
+}
+.fr{
+    display:flex;
+    background:rgba(10, 8, 8,0.3);
+    border-radius:25PX;
+    padding:1.9em;
+}
+.mac{
+    flex:1;
+    order:1;
+    margin-right: 2em;
+}
+.mac>input{
+   width:100%;
+   background:transparent;
+   color:#fff;
+   border-radius:40px;
+}
+ .btn{
+color:#fff;
+border:0;
+padding:15px 50PX;
+text-transform:uppercase;
+background-color: coral;
+} 
+label{
+    color:#fff;
+    line-height:40px;
+
+}
+.mac>h1{
+    color:#fff;
+    line-height:40px;
+    text-align:center ;
+}
+#link{
+    display: flex;
+    text-align: center;
+    color: chocolate;
+}

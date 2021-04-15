@@ -88,6 +88,9 @@ body {
     flex-direction: column;
     align-items: center; 
 }
+.tit{
+    color: #936E4C;
+}
 .sectionprojet{
     width: 90%;
     height: 1000PX;
@@ -119,15 +122,12 @@ body {
 .paragraph2{
    position: absolute;
    bottom: 0%;
-   text-align: center;
    display: none; 
    transition: all 9s;
+   text-align: center;
 }
 .projet:hover .paragraph2{
     display: block;
-}
-.tit{
-   text-align: center;
 }
 .click{
     text-decoration: none;
@@ -136,9 +136,7 @@ body {
 .click:hover{
     color: chocolate;
 }
-.tit{
-    color: #936E4C ;
-}
+
 .textprojet{
     font-size: 1VW;
 }
@@ -298,7 +296,7 @@ body {
     grid-template-columns: 15% 83% ;
     grid-gap: 2%;
     grid-template-rows: 23.5% 23.5% 23.5% 23.5% ;
-    grid-row: 2%;
+    grid-row: 2%; 
 }
  .imginstagram {
     grid-row: 2/3;
@@ -503,6 +501,11 @@ a:hover{
     .btncv{
         width: 200PX;
     }
+
+    .hamburger {
+        display: block;
+    }
+
     /* partier projet ----------------------------------------------------------------------------*/
     .sectionprojet{
         height: 950PX;
@@ -530,9 +533,7 @@ a:hover{
          font-size: 100%;
          margin-top: auto;
      }
-    .hamburger {
-    color:white;
-    }
+   
     .sectionpresentation{
         width: 100%;
         display: grid;
